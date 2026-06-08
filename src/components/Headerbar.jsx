@@ -15,11 +15,11 @@ const Headerbar = () => {
 
   const toggleBrowseActive = () => {
     setIsBrowseActive(!isBrowseActive);
-  
+  }
 
   const toggleNewsActive = () => {
     setIsNewsActive(!isNewsActive);
-  
+  }
 
   return (
     <div className="w-full pt-2 px-2 flex items-center justify-between">
@@ -115,5 +115,5 @@ const Headerbar = () => {
     </div>
   );
 };
-
+  
 export default Headerbar;
