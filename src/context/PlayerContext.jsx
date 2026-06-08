@@ -12,12 +12,12 @@ const PlayerContextProvider = (props) => {
   const [playStatus, setPlayStatus] = useState(false);
   const [time, setTime] = useState({
     currentTime: {
-      second: 0,
-      minute: 0,
+      second: "00",
+      minute: "00",
     },
     totalTime: {
-      second: 0,
-      minute: 0,
+      second: "00",
+      minute: "00",
     },
   });
 
